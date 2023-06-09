@@ -1,0 +1,16 @@
+@city = London
+@stateCode = 
+@countryCode = GB
+@limit = 1
+
+### Geo API
+GET http://{{host}}/geo/1.0/direct?q={{city}},{{stateCode}},{{countryCode}}&limit={{limit}}&appid={{APIkey}}
+
+@lat = 51.5073219
+@lon = -0.1276474
+
+### Forecast API
+GET http://{{host}}/data/2.5/forecast?lat={{lat}}&lon={{lon}}&appid={{APIkey}}
+
+### weather API
+https://{{host}}/data/2.5/weather?lat={{lat}}&lon={{lon}}&appid={{APIkey}}

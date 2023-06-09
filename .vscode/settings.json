@@ -1,0 +1,15 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "rest-client.environmentVariables": {
+        "local": {
+            "host": "localhost:3000",
+            "APIkey": "devSecret"
+        },
+        "production": {
+            "host": "api.openweathermap.org",
+            "APIkey": "prodSecret"
+        }
+    }
+}

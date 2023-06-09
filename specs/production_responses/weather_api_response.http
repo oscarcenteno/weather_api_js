@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 09 Jun 2023 13:22:40 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 468
+Connection: close
+X-Cache-Key: /data/2.5/weather?lat=51.51&lon=-0.13
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{"coord":{"lon":-0.1278,"lat":51.5074},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":297.55,"feels_like":297.48,"temp_min":294.71,"temp_max":300.95,"pressure":1012,"humidity":55},"visibility":10000,"wind":{"speed":7.72,"deg":90},"clouds":{"all":3},"dt":1686316403,"sys":{"type":2,"id":268730,"country":"GB","sunrise":1686282271,"sunset":1686341706},"timezone":3600,"id":2643743,"name":"London","cod":200}

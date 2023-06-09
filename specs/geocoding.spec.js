@@ -26,7 +26,7 @@ describe('Geocoding API', () => {
 
       // Act
       try {
-        await api.getLatLon(city, stateCode, countryCode)
+        await api.getLatLon(city, stateCode, countryCode);
       } catch (error) {
 
         // Assert

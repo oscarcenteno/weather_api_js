@@ -6,13 +6,13 @@ describe('Weather API', () => {
     it('should return weather data for a valid location', async () => {
       // Arrange
       const city = 'London';
-      const stateCode = "";
+      const stateCode = '';
       const countryCode = 'GB';
 
       // Act
       const { lat, lon } = await api.getLatLon(city, stateCode, countryCode);
       const weatherData = await api.getWeatherData(lat, lon);
-      let x = 'X'
+      
       // Assert
       expect(weatherData).to.be.an('object');
       expect(weatherData.name).to.equal(city);

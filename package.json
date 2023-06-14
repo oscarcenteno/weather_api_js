@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./specs",
-    "test": "mocha"
+    "test": "mocha",
+    "ci:test": "mocha --reporter json > reports/test-results.json"
   },
   "keywords": [],
   "author": "",

@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint ./specs",
     "test": "mocha",
-    "ci:test": "mocha --reporter json > reports/test-results.json"
+    "ci:test": "mocha --reporter json > mocha-test-results.json"
   },
   "keywords": [],
   "author": "",

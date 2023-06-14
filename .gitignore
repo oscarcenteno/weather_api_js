@@ -131,3 +131,4 @@ dist
 
 # mocha
 mochawesome-report/
+mocha-test-results.json
